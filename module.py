@@ -18,6 +18,7 @@ def readDictKeys(dic: dict)->list:
         mas.append(v.strip(''))
     return mas
 
+
 def getNameNumber(numb: list, lett: list, name: str):
     """
     Берем введеное имя и раскладываем его в список. Сравниваем буквы из имени с буквами и их значениями из готового списка. Считаем полученные цифры и раскладываем сумму, если нужно. 

@@ -13,7 +13,6 @@ numb_eng = readDictVal(dicteng)
 letters_rus = readDictKeys(dictrus)
 numb_rus = readDictVal(dictrus)
 
-
 def textOutput(event):
     ''' Берет данные из ячеек, проверяет их и выводит их в функцию getNameNumber()
     Выводит текст в lbl4

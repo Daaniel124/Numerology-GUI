@@ -11,6 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>Numerology GUI</Name>
     <RootNamespace>Numerology GUI</RootNamespace>
+    <InterpreterId>Global|VisualStudio|Python37_64</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +22,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="module.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Numerology_GUI.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|VisualStudio|Python37_64" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
